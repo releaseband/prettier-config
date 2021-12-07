@@ -8,5 +8,5 @@ npx install-peerdeps --dev @releaseband/prettier-config
 `prettier.config.js`:
 
 ```js
-module.exports = require("@releaseband/prettier-config/prettier.config.js")
+module.exports = require("@releaseband/prettier-config")
 ```
