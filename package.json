@@ -1,0 +1,23 @@
+{
+  "name": "@releaseband/prettier-config",
+  "version": "0.1.0",
+  "description": "prettier config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/releaseband/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/releaseband/prettier-config/issues"
+  },
+  "homepage": "https://github.com/releaseband/prettier-config#readme",
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  },
+  "peerDependencies": {
+    "prettier": "^2.4.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
