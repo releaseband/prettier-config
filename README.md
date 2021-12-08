@@ -7,7 +7,7 @@ echo @releaseband:registry=https://npm.pkg.github.com > .npmrc
 ```
 
 ```
-npm i -D @releaseband/prettier-config
+npm i @releaseband/prettier-config
 npx install-peerdeps --dev @releaseband/prettier-config
 ```
 
