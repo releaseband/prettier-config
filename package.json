@@ -1,8 +1,35 @@
 {
   "name": "@releaseband/prettier-config",
-  "version": "0.1.2",
-  "description": "prettier config",
+  "version": "0.0.0-semantic-release",
+  "description": "prettier shareable config",
+  "author": "releaseband",
+  "license": "MIT",
   "main": "index.js",
+  "scripts": {
+    "format": "prettier --write --ignore-path ./.gitignore .",
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "@commitlint/cz-commitlint": "^16.1.0",
+    "@releaseband/semantic-release-npm-github-config": "^1.0.0",
+    "commitizen": "^4.2.4",
+    "prettier": "^2.5.1",
+    "semantic-release": "^19.0.2"
+  },
+  "peerDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/releaseband/prettier-config.git"
@@ -10,14 +37,5 @@
   "bugs": {
     "url": "https://github.com/releaseband/prettier-config/issues"
   },
-  "homepage": "https://github.com/releaseband/prettier-config#readme",
-  "devDependencies": {
-    "prettier": "^2.4.1"
-  },
-  "peerDependencies": {
-    "prettier": "^2.4.1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "homepage": "https://github.com/releaseband/prettier-config#readme"
 }

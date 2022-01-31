@@ -1,17 +1,15 @@
-# Installing
+# @releaseband/prettier-config
 
-create [.npmrc](https://docs.npmjs.com/cli/v7/configuring-npm/npmrc) file in the **root project folder**:
+prettier shareable config
 
-```
-echo @releaseband:registry=https://npm.pkg.github.com > .npmrc
-```
+## Installing
 
-```
-npm i @releaseband/prettier-config
+```bash
+npm i -D @releaseband/prettier-config
 npx install-peerdeps --dev @releaseband/prettier-config
 ```
 
-`prettier.config.js`:
+create `prettier.config.js` file in the **root project folder**:
 
 ```js
 module.exports = require('@releaseband/prettier-config');
