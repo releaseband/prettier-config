@@ -6,12 +6,11 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write --ignore-path ./.gitignore .",
+    "prettier": "prettier --write --ignore-path ./.gitignore .",
     "commit": "cz"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.1.0",
-    "@commitlint/config-conventional": "^16.0.0",
     "@commitlint/cz-commitlint": "^16.1.0",
     "@releaseband/semantic-release-npm-github-config": "^1.0.0",
     "commitizen": "^4.2.4",
@@ -37,5 +36,9 @@
   "bugs": {
     "url": "https://github.com/releaseband/prettier-config/issues"
   },
-  "homepage": "https://github.com/releaseband/prettier-config#readme"
+  "homepage": "https://github.com/releaseband/prettier-config#readme",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ]
 }
