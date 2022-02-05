@@ -15,6 +15,16 @@ create `.prettierrc.js` file in the **root project folder**:
 module.exports = require('@releaseband/prettier-config');
 ```
 
+create `.prettierignore` file in the **root project folder**:
+
+```text
+node_modules/
+.idea/
+.vscode/
+.history/
+CHANGELOG.md
+```
+
 add script in `package.json`:
 
 ```json
