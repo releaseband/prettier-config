@@ -1,6 +1,6 @@
 # @releaseband/prettier-config
 
-prettier shareable config
+[prettier](https://github.com/prettier/prettier) shareable config
 
 ## Installing
 

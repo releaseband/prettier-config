@@ -1,1 +1,4 @@
-module.exports = require('@releaseband/lint-staged-config');
+module.exports = {
+  '*': 'prettier --write --ignore-unknown',
+  '*.md': 'markdownlint --fix',
+};
