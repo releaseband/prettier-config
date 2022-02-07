@@ -1,3 +1,15 @@
+# [1.0.0](https://github.com/releaseband/prettier-config/compare/v0.3.0...v1.0.0) (2022-02-07)
+
+
+### Features
+
+* remove unnecessary tools configs ([ffa7002](https://github.com/releaseband/prettier-config/commit/ffa7002fe1aa4e0ad46395411d12b5d2e1f599c4))
+
+
+### BREAKING CHANGES
+
+* publish release version
+
 # [0.3.0](https://github.com/releaseband/prettier-config/compare/v0.2.1...v0.3.0) (2022-02-05)
 
 
