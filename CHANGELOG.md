@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/releaseband/prettier-config/compare/v1.0.0...v1.0.1) (2022-02-09)
+
+
+### Bug Fixes
+
+* set trailingComma as all ([45286a3](https://github.com/releaseband/prettier-config/commit/45286a397881d1a5825d236d57bded2849b18c19))
+
 # [1.0.0](https://github.com/releaseband/prettier-config/compare/v0.3.0...v1.0.0) (2022-02-07)
 
 
